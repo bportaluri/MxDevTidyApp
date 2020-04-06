@@ -79,7 +79,16 @@ public class TidyApp
 		if (args.length!=1)
 		{
 			log("Missing argument: input file");
-			log("");
+			return;
+		}
+		
+		inFileName = args[0];
+		outFileName = inFileName.replace(".xml", ".tidy.xml");
+
+		File inFile = new File(inFileName);
+		if(!inFile.exists())
+		{
+			log("Cannot find input file " + inFileName);
 			return;
 		}
 		
@@ -107,8 +116,6 @@ public class TidyApp
 		dd = new MxDD();
 		dd.init(conn);
 
-		inFileName = args[0];
-		outFileName = inFileName.replace(".xml", ".new.xml");
 		log("Processing input file: " + inFileName);		
 
 		SAXBuilder builder = new SAXBuilder();
