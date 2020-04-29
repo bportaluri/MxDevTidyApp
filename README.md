@@ -9,7 +9,7 @@ Advantages of using MxDevTidyApp:
 
 ## Installation
 
-Download latest version [MxDevTidyApp from GitHub](https://github.com/bportaluri/MxDevTidyApp.git).
+The build package is published on [MaximoDev website](https://bportaluri.com/mxdevtidyapp).
 Extract MxDevTidyApp.zip folder in a directory of your choice.
 Edit MxDevTidyApp.properties entering database credentials. These are used to verify used fields. No changes are made to the database.
 
@@ -24,5 +24,7 @@ Edit MxDevTidyApp.properties entering database credentials. These are used to ve
 
 ## Change Log
 
+### Version 1.2 (2020-04-29)
+- Build command and release to website
 ### Version 1.1 (2020-04-06)
 - Initial release
