@@ -5,4 +5,4 @@ if [%1]==[] (
     goto :eof
 )
 
-java -classpath MxDevTidyApp/bin;MxDevTidyApp/lib/jdom.jar;MxDevTidyApp/lib/oraclethin.jar;MxDevTidyApp/lib/db2jcc.jar mxdev.tidyapp.TidyApp %1
+java -classpath MxDevTidyApp.jar;lib/jdom.jar;lib/oraclethin.jar;lib/db2jcc.jar mxdev.tidyapp.TidyApp %1
