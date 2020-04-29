@@ -13,11 +13,13 @@ mkdir %DESTDIR%\lib\*
 move MxDevTidyApp.jar %DESTDIR%
 copy MxDevTidyApp\lib\*.jar %DESTDIR%\lib
 copy MxDevTidyApp.cmd %DESTDIR%
+copy LICENSE %DESTDIR%
+copy README.md %DESTDIR%
 copy MxDevTidyApp\MxDevTidyApp.properties %DESTDIR%
 
 pushd %DESTDIR%
 
-%ZHOME%\7za a -tzip MxDevTidyApp.zip -r *.*
+%ZHOME%\7za a -tzip MxDevTidyApp.zip -r *
 
 popd
 
