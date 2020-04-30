@@ -24,6 +24,8 @@ Edit MxDevTidyApp.properties entering database credentials. These are used to ve
 
 ## Change Log
 
+### Version 1.3 (2020-04-30)
+- Microsoft SQL Server support
 ### Version 1.2 (2020-04-29)
 - Build command and release to website
 ### Version 1.1 (2020-04-06)
